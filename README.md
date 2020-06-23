@@ -56,7 +56,7 @@ An example input is shown below.
 
 ### OUTPUT FORMAT
 The program should accept the name of an output file to store the results. The format in which results need to be persisted to the output file is shown below.
->	<studentID> <course completed> <course completed> ... <course completed> - - <# semesters> <# state changes>
+>	`<studentID> <course completed> <course completed> ... <course completed> - - <# semesters> <# state changes>`
 
 An example of a possible output for the input given above is shown below.
 >1234: A E I B F J C G K D H L M Q R N - - 6 0
