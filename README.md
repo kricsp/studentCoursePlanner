@@ -46,7 +46,7 @@ Use ANT to compile the code.
 
 ### INPUT FORMAT
 The program should accept a single input file. The input file will contain just one line corresponding to the course sequence for a student. Below is the format of the input file.
-> <studentID>: <course> <course> <course> ... <course>
+> 	<studentID>: <course> <course> <course> ... <course>
 - The input will be well formed. The courses will be white space delimited.
 - The input for each student is their preferred sequence of courses.
 - It is possible that the input is an empty file or not available. If the input does not exist, or is empty, then just print a meaningful error message to stderr, print the stack trace, and exit.
@@ -56,7 +56,7 @@ An example input is shown below.
 
 ### OUTPUT FORMAT
 The program should accept the name of an output file to store the results. The format in which results need to be persisted to the output file is shown below.
-><studentID> <course completed> <course completed> ... <course completed> - - <# semesters> <# state changes>
+>	<studentID> <course completed> <course completed> ... <course completed> - - <# semesters> <# state changes>
 
 An example of a possible output for the input given above is shown below.
 >1234: A E I B F J C G K D H L M Q R N - - 6 0
